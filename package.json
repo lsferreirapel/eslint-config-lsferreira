@@ -29,5 +29,13 @@
     "typescript": {
       "optional": true
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsferreirapel/eslint-config-lsferreira.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lsferreirapel/eslint-config-lsferreira/issues"
+  },
+  "homepage": "https://github.com/lsferreirapel/eslint-config-lsferreira#readme"
 }
