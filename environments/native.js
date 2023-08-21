@@ -1,12 +1,19 @@
 module.exports = {
+  env: {
+    'browser': true,
+    'es2021': true,
+    'react-native/react-native': true
+  },
   extends: [
-    'universe',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:prettier/recommended',
   ],
   plugins: [
+    'react',
+    'react-native',
     '@typescript-eslint',
     'simple-import-sort',
     'unused-imports',
