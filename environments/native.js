@@ -29,12 +29,14 @@ module.exports = {
       'semi': false,
       'endOfLine': 'auto',
     }],
+    'react/react-in-jsx-scope': 'off',
     'import/no-duplicates': 'error',
     'simple-import-sort/imports': [
       'error',
       {
         'groups': [
           ['^\\u0000'],
+          ['^react$'],
           ['^react-native$'],
           ['^@?\\w'],
           ['^'],
