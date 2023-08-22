@@ -36,8 +36,8 @@ module.exports = {
       {
         'groups': [
           ['^\\u0000'],
-          ['^react$'],
-          ['^react-native$'],
+          ['^react'],
+          ['expo'],
           ['^@?\\w'],
           ['^'],
           ['^\\.']
